@@ -1,0 +1,98 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Werksatz';
+  src:
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/66c7a14b0ce2349b016fd8af_Werksatz-Regular.woff2')
+      format('woff2'),
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/66c7f6ca802afbb2acea99d3_Werksatz-Regular.woff')
+      format('woff'),
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358b7cd7d446708a1c7885_Werksatz-Regular.ttf')
+      format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Werksatz';
+  src:
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/66c7a4b992f2794e798ae147_Werksatz-Medium.woff2')
+      format('woff2'),
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/66c7f6cab2a0cd52c1e759b7_Werksatz-Medium.woff')
+      format('woff'),
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358b7c17daafaf293d1800_Werksatz-Medium.ttf')
+      format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Werksatz';
+  src:
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/66c7f6cab2a0cd52c1e759ba_Werksatz-SemiBold.woff')
+      format('woff'),
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358b7cdfd7d2379582012c_Werksatz-SemiBold.ttf')
+      format('truetype'),
+    url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/62a10fe4d467abc8c79afa49_Werksatz-SemiBold.otf')
+      format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Moderat Webfont';
+  src: url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358c06b55fc64b2dbb9ea6_moderat-light-webfont.otf')
+    format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Moderat Webfont';
+  src: url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358c0665a382945ff438c0_moderat-bold-webfont.otf')
+    format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cooper Md Bt';
+  src: url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358c066047abfdf8e5b689_Cooper-Md-BT-Regular.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Moderat Webfont';
+  src: url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358c06329742981fd2e494_moderat-regular-webfont.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Cooper Lt Bt';
+  src: url('https://cdn.prod.website-files.com/60f583385ec9fe9471bd1278/65358c063b0593b2e2db3360_Cooper-Lt-BT-Regular.otf')
+    format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary-green: #226752;
+  --color-black: #1d1d1d;
+  --color-white: white;
+  --color-green-2\<deleted\|variable-ef60c030\>: #276164;
+  --color-forest: #374941;
+  --color-blush: #f0e7d5;
+  --color-sunrise: #fae3c3;
+  --color-moss: #cbd5ca;
+  --color-stone: #f2f2ef;
+  --color-oak: #656a47;
+  --color-natural: #fcf8f2;
+  --color-green\<deleted\|variable-9d46cd20\>: #204e51;
+  --color-1rem: 1rem;
+  --dim-grey: #626e6e;
+}
